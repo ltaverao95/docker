@@ -1,3 +1,4 @@
+#builder name can be changed
 FROM node:10 as builder
 
 COPY ["package.json", "package-lock.json", "/usr/src/"]
